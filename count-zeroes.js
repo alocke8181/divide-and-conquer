@@ -12,6 +12,7 @@ function countZeroes(arr) {
       ceiling = index -1;
     }
   }
+  return arr.length - floor;
 }
 
 module.exports = countZeroes
